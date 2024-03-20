@@ -20,7 +20,7 @@ form.addEventListener('submit',(e)=>{
         }else{
             message='over weight';
         }
-        results.innerHTML=`<span>bmi is:${bmi}:${'you are'+" "+message}</span>`;
-        results.style.color='yell~ow';
+        results.innerHTML=`<span>bmi is:${bmi}: ${'you are'+" "+message}</span>`;
+        results.style.color='yellow';
     }
 })
